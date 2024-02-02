@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Purple Team Home-Lab
 
 Welcome to the Purple Teaming Home Lab Project! This initiative is designed to guide security enthusiasts, professionals, and learners in setting up a practical and effective purple teaming environment within the confines of their home lab. Purple teaming is a collaborative approach to security testing, bringing together both offensive (red team) and defensive (blue team) strategies to enhance overall cybersecurity resilience.
@@ -34,11 +33,3 @@ Welcome to the Purple Teaming Home Lab Project! This initiative is designed to g
 - Wazuh
 - Pfsense
 - Suricata
-
-## Lab Architecture :
-
-![](attachments/Homelab Architecture.png)
-=======
-# Home-Lab
- Setup idea draft for Cyber Defender Home Lab
->>>>>>> parent of 5749ebc (Content Draft started)
