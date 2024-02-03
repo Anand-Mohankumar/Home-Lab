@@ -33,3 +33,21 @@ Welcome to the Purple Teaming Home Lab Project! This initiative is designed to g
 - Wazuh
 - Pfsense
 - Suricata
+
+## Lab Architecture :
+
+![Purple Team Lab Architecture](/PurpleTeam_Lab_Architecture.png)
+
+> Since this is quite complicated of a setup, I've broken down the whole thing into multiple parts.
+>
+> We'll go through each of them seperately. Use the links below to get to a specific part of the implementation.
+>
+
+|No|Section|
+|:-----:|:-----:|
+|1|[Active Directory](/Active%20Directory/Active%20Directory%20Setup.md)|
+|2|[Endpoints](/Endpoints/Endpoint%20Setup.md)|
+|3|[Lima Charlie](/Lima%20Charlie/LimaCharlie%20Setup.md)|
+|4|[PfSense](/PfSense/PfSense%20Setup.md)|
+|5|[Wazuh](/Wazuh/Wazuh%20Setup.md)|
+
