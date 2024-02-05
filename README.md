@@ -28,7 +28,7 @@ Purple teaming is a collaborative approach to security testing, bringing togethe
     - Recommended specs :
       - Processor with 6 Cores (12 Threads)
       - 16 GB RAM
-      - HDD - 100 GB
+      - HDD - 250 GB free
 
 
 - ***Oracle Virtualbox*** : Can be downloaded [***here***](https://www.virtualbox.org/wiki/Downloads).  
