@@ -1,6 +1,10 @@
 # Home-Lab for Purple Teaming Activities
 
-Welcome to the Purple Teaming Home Lab Project! This initiative is designed to guide security enthusiasts, professionals, and learners in setting up a practical and effective purple teaming environment within the confines of their home lab. Purple teaming is a collaborative approach to security testing, bringing together both offensive (red team) and defensive (blue team) strategies to enhance overall cybersecurity resilience.
+Welcome to the Purple Teaming Home Lab Project!
+
+ This project is designed to guide security enthusiasts, professionals, and learners in setting up a practical and effective purple teaming environment within the confines of their home lab.
+### What is Purple Teaming?  
+Purple teaming is a collaborative approach to security testing, bringing together both offensive (red team) and defensive (blue team) strategies to enhance overall cybersecurity resilience.
 
 ## Project Goals:
 
@@ -11,30 +15,57 @@ Welcome to the Purple Teaming Home Lab Project! This initiative is designed to g
 ### Skill Development :
 - Equip users with the skills necessary to simulate and assess security threats, vulnerabilities, and incidents in a controlled environment.
 
+## Lab Requirements :
 
-## Requirements :
-
-> Spoiler alert!! You're going to need a capable host machine to successfully run this lab. But If your system is struggling, we still have the option to run only specific parts of the architecture at a time and still achieve the same result. 
+> Spoiler alert!! You're going to need a capable host machine to successfully run this lab.  
+> But If your system is struggling, we still have the option to run only specific parts of the architecture at a time and still achieve the same result. 
 > <br> </br>
 
 
-- ***Oracle Virtualbox*** : Can be downloaded [**here**](https://www.virtualbox.org/wiki/Downloads).
+
 - ***Windows Host System***
     - This is where we'll be installing our Hypervisor
     - Recommended specs :
       - Processor with 6 Cores (12 Threads)
       - 16 GB RAM
       - HDD - 100 GB
+
+
+- ***Oracle Virtualbox*** : Can be downloaded [***here***](https://www.virtualbox.org/wiki/Downloads).  
+
+  > Note: Installation procedure for Virtualbox is not covered in this guide. But here's a link to the official documentation from Oracle if you have trouble installing the software : [***1.5. Installing Oracle VM Virtualbox and Extension Packs***](https://www.virtualbox.org/manual/UserManual.html#installation)
+
+
 - ***Windows Server 2022***
+  - ISO image can be downloaded from [***here***](https://info.microsoft.com/ww-landing-windows-server-2022.html)
+  >Note : Microsoft requires you to register in order to dowload the ISO file.
+
+
 - ***Windows 10 Enterprise***
-  -  You can also try 11, but if you're short on resources, personally I think 10 is the sweet spot
-- ***Ubuntu 22.04***
+  -  ISO image available [***here***](https://www.microsoft.com/en-us/evalcenter/download-windows-10-enterprise)
+  -  You can also try 11, but if you're short on resources, personally I think 10 is the sweet spot.
+ 
+
 - ***Kali Linux***
-  - You can utilize the ready to use version for Virtualbox.
+  - You can utilize the ready to use version for Virtualbox available [***here***](https://www.kali.org/get-kali/#kali-virtual-machines)
+  - In the **Pre-built Virtual Machines** section, download the package for Virtualbox
+
+  >Note : Virtual Machine package typically comes in a compressed archive format. Hence, if the Windows explorer failes to extract the package, keep third party tool such as 7zip or Winrar in your host system just in case.
   
 - ***Wazuh***
   - You can utilize the ready to use version for Virtualbox or Install from scratch (which is time consuming but if your objective is to learn, why not?).
+
+  - Virtual machine (OVA) for easy installation to Virtualbox can be found [***here***](https://documentation.wazuh.com/current/deployment-options/virtual-machine/virtual-machine.html)
+
+  - If you'd like to install Wazuh by other means, refer : [***Installation alternatives***](https://documentation.wazuh.com/current/deployment-options/index.html)
+
 - ***pfSense***
+  - Visit : [***Download pfSense Community Edition***](https://www.pfsense.org/download/)
+  - In the **Select Image to Download** section, select the following and click Download.
+  >|Architecture|Installer|Mirror
+  >|----|----|----|
+  >|AMD64(64-bit)|DVD Image (ISO)Installer|Choose your nearest location|
+
 - ***Suricata***
 
 ## Lab Architecture :
