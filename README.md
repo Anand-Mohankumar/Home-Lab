@@ -50,7 +50,7 @@ Purple teaming is a collaborative approach to security testing, bringing togethe
   - You can utilize the ready to use version for Virtualbox available [***here***](https://www.kali.org/get-kali/#kali-virtual-machines)
   - In the **Pre-built Virtual Machines** section, download the package for Virtualbox
 
-  >Note : Virtual Machine package typically comes in a compressed archive format. Hence, if the Windows explorer failes to extract the package, keep third party tool such as 7zip or Winrar in your host system just in case.
+  >Note : Virtual Machine package typically comes in a compressed archive format. Hence, if the Windows explorer fails to extract the package, keep third party tool such as 7zip or Winrar in your host system just in case.
   
 - ***Wazuh***
   - You can utilize the ready to use version for Virtualbox or Install from scratch (which is time consuming but if your objective is to learn, why not?).
