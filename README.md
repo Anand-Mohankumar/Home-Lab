@@ -77,7 +77,14 @@ Purple teaming is a collaborative approach to security testing, bringing togethe
 
  #### Since this is quite complicated of a setup, I've broken down the whole thing into multiple parts. We'll go through each of them seperately. Use the links below to get to a specific part of the implementation.
 ---
-## Lab Architecture Breakdown
+## Getting Started
+
+
+### Part 1. Getting things Up and Running
+
+
+The setup has a few building blocks and the below table has detailed description on how to get each of them up and running and connected with each other.
+
 
 |No|Section|Description|
 |:-----:|:-----:|:----:|
@@ -89,3 +96,12 @@ Purple teaming is a collaborative approach to security testing, bringing togethe
 
 >Note : The sections of the setup is placed sequenctially to reduce the effort as much as possible. Kindly follow the sequence fom 1-5 unless otherwise you have a valid reason.
 ---
+### Part 2. Practicing
+
+
+This is part where we really touch on our actual objective of the lab. With all the monitoring and defensive tools and our environment fully set up, now its time to start practicing. 
+
+In this part of the lab we use the Kali Linux to try out various redteaming tools against our defensive arsenal to observe how they perform.
+
+|No|CaseID |Description|
+|:-----:|:-----:|:----:|

@@ -1,6 +1,6 @@
 # Setting up pfSense in Virtualbox
 
-pfSense is a free and open source firewall and router that can be installed on a variety of hardware platforms or as a virtual machine. It offers many features such as network address translation (NAT), port forwarding, VPN, traffic shaping, firewall rules, and more. In this article, we will show you how to set up pfSense as a virtual machine in Virtualbox, a popular cross-platform virtualization software.
+pfSense is a free and open source firewall and router that can be installed on a variety of hardware platforms or as a virtual machine. It offers many features such as network address translation (NAT), port forwarding, VPN, traffic shaping, firewall rules, and more. In this article, we will show you how to set up pfSense as a virtual machine in Virtualbox
 
 ## Prerequisites
 
