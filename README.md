@@ -101,7 +101,7 @@ The setup has a few building blocks and the below table has detailed description
 
 This is part where we really touch on our actual objective of the lab. With all the monitoring and defensive tools and our environment fully set up, now its time to start practicing. 
 
-In this part of the lab we use the Kali Linux to try out various redteaming tools against our defensive arsenal to observe how they perform.
+In this part of the lab we use the Kali Linux to try out various redteaming tools against our defensive arsenal to observe how they perform and also learn a few things about the patterns these sneaky tools leave for us defenders to catch them in the dark. 
 
 |No|CaseID |Description|
 |:-----:|:-----:|:----:|
