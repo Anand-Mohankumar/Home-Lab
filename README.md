@@ -72,8 +72,11 @@ Purple teaming is a collaborative approach to security testing, bringing togethe
 
 ![Purple Team Lab Architecture](/PurpleTeam_Lab_Architecture.png)
 
-<center>Lab Setup Architecture</center>
-
+<p> 
+<center>
+Lab Setup Architecture
+</center>
+</p>
 
  #### Since this is quite complicated of a setup, I've broken down the whole thing into multiple parts. We'll go through each of them seperately. Use the links below to get to a specific part of the implementation.
 ---
